@@ -52,20 +52,20 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-API_ID = int(os.environ.get("API_ID", "28121536"))
-API_HASH = os.environ.get("API_HASH", "57d552d05f2a76244291d9eb330294c2")
-BOT_TOKEN = os.environ.get("TOKEN", "7090522217:AAGhGJl78uuDhOaEnCrR5-jVokpqZ2a844g")  
+API_ID = int(os.environ.get("API_ID", "28259127"))
+API_HASH = os.environ.get("API_HASH", "43d8370ce91498dec1e0b30365f9a22d")
+BOT_TOKEN = os.environ.get("TOKEN", "7533593463:AAE8zCasHtqoX7itFfYLYjWD6w3qNt4W3Pc")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7090522217"))  
+BOT_ID = int(os.environ.get("BOT_ID", "7533593463"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "özelliklerim")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002182187594"))  
-OWNER_ID = 5901320319  # Sahip hesabın id'si
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089")  
+OWNER_ID = 7486120972  # Sahip hesabın id'si
 
 
 
 #-------------------------------------------------------------------------
-mongo_client = MongoClient("mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+mongo_client = MongoClient("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
 db = mongo_client["tagger_db"]
 blocked_collection = db["blocked"]   
 groups_collection = db["groups"]
@@ -388,8 +388,8 @@ async def chatModeHandler(bot: Client, msg: Message):
 
     reply = None
 
-    if text.startswith("acelya"): # * Mesaj acelya ile başlıyorsa cevap veriyoruz
-        reply = random.choice(acelya)
+    if text.startswith("gökbörü"): # * Mesaj acelya ile başlıyorsa cevap veriyoruz
+        reply = random.choice(gökbörü)
         await asyncio.sleep(0.06)
     
     elif kontrol(["selam", "slm", "sa", "selamlar", "selamm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
