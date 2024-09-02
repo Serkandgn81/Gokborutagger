@@ -65,7 +65,7 @@ OWNER_ID = 7486120972  # Sahip hesabın id'si
 
 
 #-------------------------------------------------------------------------
-mongo_client = MongoClient("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
+mongo_client = MongoClient("mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 db = mongo_client["tagger_db"]
 blocked_collection = db["blocked"]   
 groups_collection = db["groups"]
