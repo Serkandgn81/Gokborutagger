@@ -59,7 +59,7 @@ BOT_TOKEN = os.environ.get("TOKEN", "7533593463:AAE8zCasHtqoX7itFfYLYjWD6w3qNt4W
 BOT_ID = int(os.environ.get("BOT_ID", "7533593463"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "özelliklerim")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089")  
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089"))  
 OWNER_ID = 7486120972  # Sahip hesabın id'si
 
 
