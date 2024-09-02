@@ -109,7 +109,7 @@ slm = (
 "**Selamm**",  
 )
 
-acelya = (
+gökbörü = (
 "**Efendim Aşk** 🫢",
 "**Beni mi çağırdıın** 🫠",
 "**Efendimm** ❣️",
