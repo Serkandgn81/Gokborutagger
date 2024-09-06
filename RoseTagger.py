@@ -60,7 +60,7 @@ BOT_ID = int(os.environ.get("BOT_ID", "7533593463"))
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "özelliklerim")  
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089"))  
-OWNER_ID = 7455298834  # Sahip hesabın id'si
+OWNER_ID = 7147517965  # Sahip hesabın id'si
 
 
 
