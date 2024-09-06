@@ -127,7 +127,7 @@ gökbörü = (
 )
 
 sahip = (
-"@MAD1BOY **Sana sesleniyorlarr**",
+"@GeceBeysYa **Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
